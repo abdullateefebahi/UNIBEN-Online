@@ -1,0 +1,105 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4B0082;
+            color: #FFD700;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            background-color: #2D0036;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #FFB800;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background-color: #e6f2ff;
+        }
+        .hero h1 {
+            margin: 0;
+            color: #004d99;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #333;
+        }
+        .signup-btn {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.8rem 1.5rem;
+            background-color: #4B0082;
+            color: #FFD700;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        .signup-btn:hover {
+            background-color: #2D0036;
+            color: #FFB800;
+        }
+        .features {
+            padding: 2rem;
+            text-align: center;
+        }
+        .features h2 {
+            color: #004d99;
+        }
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+        .features li {
+            margin: 1rem 0;
+            font-size: 1.1rem;
+            color: #333;
+        }
+        .cta {
+            text-align: center;
+            padding: 2rem;
+            background-color: #333;
+            color: #FFE8A3;
+        }
+        .cta h2 {
+            margin: 0;
+        }
+        .cta p {
+            margin: 1rem 0;
+        }
+        .cta a {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: #fff;
+            color: #FFE8A3;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .cta a:hover {
+            background-color: #0A0A0A;
+            color: #fff;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #2D0036;
+            color: #FFB800;
+        }
